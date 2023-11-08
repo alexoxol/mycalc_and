@@ -1,12 +1,11 @@
 from kivy.app import App
-from kivy.core.window import Window
 from kivy.lang import Builder
 from kivy.properties import ObjectProperty
 from kivy.uix.widget import Widget
 from funcs import *
 
 # Размер приложения
-Window.size = (500, 700)
+# Window.size = (500, 700)
 
 Builder.load_file('kv_calc.kv')
 # Builder.load_string("""
